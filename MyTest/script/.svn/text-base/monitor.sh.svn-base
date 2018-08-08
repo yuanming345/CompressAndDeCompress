@@ -1,0 +1,11 @@
+#!/bin/bash
+#monitor pid
+mainclass="com.ehl.tvc.query.server.QueryServer"
+dir=""
+if [ -z  $dir ];then
+	dir=$(cd "$(dirname "$0")";cd ..; pwd)
+fi;
+pid=`ps -ef | grep $mainclass | grep -v grep | awk '{pirnt $2}'`
+if [ -z $pid ];then
+	cd  ${dir}/bin && ./start.sh;
+fi;

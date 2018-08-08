@@ -1,0 +1,98 @@
+10
+
+dir
+5410
+http://10.150.57.191:8080/svn/team/VBSDAS/code/%E5%9B%BD%E5%86%85%E7%89%88/project/%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94/itgs-webservice/src/com/zklt/tvc/webservice
+http://10.150.57.191:8080/svn/team
+
+
+
+2017-11-07T08:58:58.114985Z
+5410
+luoss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+62b154e9-8a02-8249-bdea-1ccd51dd9a82
+
+xml
+dir
+
+impl
+dir
+
+log
+dir
+
+hbase
+dir
+
+init
+dir
+
+interfaces
+dir
+
+bean
+dir
+
+redis
+dir
+
+monitor
+dir
+
+common
+dir
+
+validation
+dir
+
+kafka
+dir
+
+TgsService.java
+file
+
+
+
+
+2017-11-07T07:46:43.018309Z
+50cf19fe6e64de8cbf35e737dd7ff7ba
+2017-11-07T08:58:58.114985Z
+5410
+luoss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+383
+

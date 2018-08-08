@@ -1,0 +1,8 @@
+#!/bin/bash
+#clear log
+dir=""
+if [ -z  $dir ];then
+	dir=$(cd "$(dirname "$0")";cd ..; pwd)
+fi;
+
+cd $dir/logs  &&  find ./ -name '*log*'  -type f -mtime +10 -exec rm -rf {} \; 
